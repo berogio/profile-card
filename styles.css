@@ -1,0 +1,70 @@
+.main {
+    height: 100vh;
+    background-color: #19A1AE;
+    background-image: url(./assets/images/bg-pattern-top.svg), url(./assets/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: -500px, 500px;
+    background-position-x: -10%, 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .card {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 350px;
+    height: 375px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    background-image: url(./assets/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+}
+
+.main .card .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .card .content .avatar {
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+.main .card .content .user {
+    color: #2E3349;
+    font-weight: 700;
+    padding-top: 24px;
+    padding-bottom: 13px;
+    font-family: KumbhSans-Bold;
+}
+
+.main .card .content .sity {
+    color: #6B7082;
+    padding-bottom: 28px;
+    font-family: KumbhSans-Light;
+    line-height: 17px;
+}
+
+.main .card .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: 1px #E8E9EC solid;
+    height: 88px;
+    font-family: KumbhSans-Bold;
+}
+
+.footer :only-child {
+    padding: 9px;
+    font-family: KumbhSans-Light;
+    color: #6B7082;
+    font-size: 11px;
+}
