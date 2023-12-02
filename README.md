@@ -33,4 +33,4 @@ To run this Profile Card locally, follow these steps:
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 - Author Giorgi Beridze [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/giorgi-beridze-427902238/)
-**Have fun building!** 🚀
+- **Have fun building!** 🚀
